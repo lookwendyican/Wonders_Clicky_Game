@@ -25,8 +25,8 @@ class App extends Component {
               image={wonder.image}
             />
           ))}
-          <Footer />
         </Wrapper>
+        <Footer />
       </div>
     );
   }

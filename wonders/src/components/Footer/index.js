@@ -18,11 +18,11 @@ const Footer = () => (
         </li>
         <li>© 2019 Wendy Alers</li>
         <li>
-          <a href="https://github.com/evanejtucker/clicky-game" target="blank">
-            <span>
-              <img className="logo" src="assets/images/github.png" alt="" />
-            </span>{" "}
-            Github
+          <a
+            href="https://github.com/lookwendyican/Wonders_Clicky_Game"
+            target="blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
           </a>
         </li>
       </ul>

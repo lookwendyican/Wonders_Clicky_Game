@@ -1,12 +1,13 @@
 .footer {
-  min-height: 80px;
+  min-height: 40px;
   width: 100%;
-  background: red;
+  background: #b1a296;
   box-shadow: 0 0 5px 1px darkslategrey;
   position: relative;
   margin-top: 50px;
   margin: 0 auto;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 20px;
 }
 
 .bottom {
@@ -15,8 +16,8 @@
   margin: 0 auto;
   width: 100%;
   min-height: 50px;
-  border-top: 5px solid rgb(236, 0, 0);
-  background: rgb(224, 0, 0);
+  border-top: 5px solid #a08e81;
+  background: #a19285;
   text-align: center;
 }
 
@@ -31,11 +32,11 @@ ul#footer-list {
 #footer-list li {
   display: inline-block;
   width: 33%;
-  color: ivory;
+  color: darkslategrey;
 }
 
 #footer-list li a {
-  color: ivory;
+  color: darkslategrey;
 }
 
 #footer-list li a:hover {
