@@ -2,10 +2,14 @@ import React from "react";
 import "./header.css";
 
 const Header = props => (
-  <div className="Header">
+  <div className="header">
     <ul>
       <li>
-        <h2 className="title animated swing">Clicky Game</h2>
+        <h2 className=" title animated swing">Clicky Game</h2>
+      </li>
+      {/* <GameMessage score={props.score} topScore={props.topScore} /> */}
+      <li id="score">
+        Score: {props.score} | Top Score: {props.topScore}
       </li>
     </ul>
   </div>

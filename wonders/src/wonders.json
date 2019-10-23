@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cristo Redentor",
+    "image": "https://street-view.org/upload/image/cristo-redentor-capa.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Petra",
+    "image": "https://timedotcom.files.wordpress.com/2016/06/jordan-petra-landmark.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Taj Mahal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Machu Pichu",
+    "image": "https://www.nationalgeographic.com/content/dam/travel/2017-digital/family-travel/machu-picchu-family-travel.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Angkor Wat",
+    "image": "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5434711148001_5413965430001-vs.jpg?pubId=5104226627001&videoId=5413965430001"
+  },
+  {
+    "id": 6,
+    "name": "Chichen Itza",
+    "image": "https://www.tripsavvy.com/thmb/XYJevuxyirYYJA633coZ9SD4jF8=/3865x2576/filters:no_upscale():max_bytes(150000):strip_icc()/el-castillo--148592462-59a70345685fbe001067598e.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Colosseum",
+    "image": "https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Great Wall of China",
+    "image": "https://familytravelist.ca/wp-content/uploads/2018/08/great-wall-of-china-one-of-the-seven-wonders-of-world-on-360-expeditions-trekking-adventure-asia.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Stonehenge",
+    "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/41/61.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pyramids of Giza",
+    "image": ""
+  },
+  {
+    "id": 11,
+    "name": "Hagia Sophia",
+    "image": "http://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Easter Island",
+    "image": "http://cdn.cnn.com/cnnnext/dam/assets/190111092720-easter-island-moais-file-restricted.jpg"
+  }
+]
