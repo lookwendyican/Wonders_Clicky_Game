@@ -11,7 +11,7 @@ class App extends Component {
     wonders
   };
 
-  // Map over this.state.wonders and render a FriendCard component for each friend object
+  // Map over this.state.wonders and render a WonderCard component for each friend object
   render() {
     return (
       <div>

@@ -5,7 +5,7 @@ const Header = props => (
   <div className="header">
     <ul>
       <li>
-        <h2 className=" title animated swing">Clicky Game</h2>
+        <h2 className=" title animated swing">Wonders Clicky Game</h2>
       </li>
       {/* <GameMessage score={props.score} topScore={props.topScore} /> */}
       <li id="score">
