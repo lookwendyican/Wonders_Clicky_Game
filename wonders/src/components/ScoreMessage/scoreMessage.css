@@ -1,0 +1,17 @@
+.gameMessage {
+  font-size: 1.5em;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.black {
+  color: #3f2f4f;
+}
+
+.correct {
+  color: lime;
+}
+
+.incorrect {
+  color: firebrick;
+  -webkit-text-stroke: 1px black;
+}

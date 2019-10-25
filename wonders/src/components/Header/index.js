@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import ScoreMessage from "../ScoreMessage";
 
 const Header = props => (
   <div className="header">
@@ -7,15 +8,11 @@ const Header = props => (
       <li>
         <h2 className=" title animated swing">Wonders Clicky Game</h2>
       </li>
-      {/* <GameMessage score={props.score} topScore={props.topScore} /> */}
+      <ScoreMessage score={props.score} topScore={props.topScore} />
       <li id="score">
         Score: {props.score} | Top Score: {props.topScore}
       </li>
     </ul>
-    <div className="instruction">
-      Click as many <span className="instructionb"> wonders </span> without
-      reapeating them.
-    </div>
   </div>
 );
 

@@ -85,15 +85,17 @@ class App extends Component {
         <Header score={this.state.score} topScore={this.state.topScore} />
         <Wrapper>
           {this.state.wonders.map(wonder => (
-            <WondersCard
-              id={wonder.id}
-              key={wonder.id}
-              name={wonder.name}
-              image={wonder.image}
-              animate={!this.state.score && this.state.topScore}
-              clicked={wonder.clicked}
-              handleClick={this.gameCardClick}
-            />
+            <div className="animated pulse">
+              <WondersCard
+                id={wonder.id}
+                key={wonder.id}
+                name={wonder.name}
+                image={wonder.image}
+                animate={!this.state.score && this.state.topScore}
+                clicked={wonder.clicked}
+                handleClick={this.gameCardClick}
+              />
+            </div>
           ))}
         </Wrapper>
         <Footer />
