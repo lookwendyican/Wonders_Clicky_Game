@@ -23,4 +23,5 @@
 
 .card:hover {
   border: 4px solid darkslategrey;
+  cursor: pointer;
 }

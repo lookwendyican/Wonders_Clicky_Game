@@ -1,7 +1,7 @@
 .footer {
-  min-height: 70px;
+  min-height: 80px;
   width: 100%;
-  background: #b1a296;
+  background: darkslategrey;
   box-shadow: 0 0 5px 1px darkslategrey;
   position: relative;
   margin-top: 50px;
@@ -12,12 +12,13 @@
 
 .bottom {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   margin: 0 auto;
   width: 100%;
-  min-height: 70px;
+  min-height: 50px;
   border-top: 5px solid #a08e81;
-  background: #a19285;
+  border-bottom: 5px solid #a08e81;
+  background: #b1a296;
   text-align: center;
 }
 
