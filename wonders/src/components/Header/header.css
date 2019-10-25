@@ -2,7 +2,7 @@
   background: #b1a296;
   width: 100%;
   min-height: 80px;
-  color: darkslategrey;
+  color: #2c4242;
   position: fixed;
   top: 0;
   margin: 0 auto;
@@ -32,6 +32,19 @@
 
 #score {
   font-size: 1.2em;
+}
+.instruction {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Proza Libre", sans-serif;
+}
+
+.instructionb {
+  color: #2c4242;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Proza Libre", sans-serif;
+  font-weight: bold;
 }
 
 @media (max-width: 700px) {

@@ -12,6 +12,10 @@ const Header = props => (
         Score: {props.score} | Top Score: {props.topScore}
       </li>
     </ul>
+    <div className="instruction">
+      Click as many <span className="instructionb"> wonders </span> without
+      reapeating them.
+    </div>
   </div>
 );
 

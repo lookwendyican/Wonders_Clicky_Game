@@ -1,5 +1,5 @@
 .footer {
-  min-height: 40px;
+  min-height: 70px;
   width: 100%;
   background: #b1a296;
   box-shadow: 0 0 5px 1px darkslategrey;
@@ -15,7 +15,7 @@
   bottom: 0;
   margin: 0 auto;
   width: 100%;
-  min-height: 50px;
+  min-height: 70px;
   border-top: 5px solid #a08e81;
   background: #a19285;
   text-align: center;
@@ -32,26 +32,19 @@ ul#footer-list {
 #footer-list li {
   display: inline-block;
   width: 33%;
-  color: darkslategrey;
+  color: darkslategray;
 }
 
 #footer-list li a {
-  color: darkslategrey;
+  color: darkslategray;
 }
 
 #footer-list li a:hover {
   font-size: 1.2em;
 }
 
-.logo {
-  height: 30px;
-  width: 30px;
-}
-
-#reactLogo {
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite;
+.fab {
+  margin-top: 10px;
 }
 
 @-moz-keyframes spin {
