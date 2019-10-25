@@ -8,9 +8,25 @@ import wonders from "./wonders.json";
 class App extends Component {
   // Setting this.state.wonders to the wonders json array
   state = {
-    wonders
+    wonders,
+    score: 0,
+    topScore: 0,
+    message: "Memory! Click as many images as you can without repeating!"
   };
 
+  // function gets called when the page loads
+  componentDidMount() {
+    // reorders the dataarray on state changes
+    this.setState({ wonders: this.shuffleDeck(this.state.wonders) });
+  }
+
+  // shuffle the imported data array in random order
+  shuffleDeck = wonders => {
+    let newWonders = wonders.sort(function(a, b) {
+      return 0.5 - Math.random();
+    });
+    return newWonders;
+  };
   // Map over this.state.wonders and render a WonderCard component for each friend object
   render() {
     return (
