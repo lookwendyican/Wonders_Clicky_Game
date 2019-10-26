@@ -1,6 +1,5 @@
 # Wonders_Clicky_Game
-React Memory Game --- Work in Progess!
-It's still statics right now. 
+React Memory Game --- App is working.  Figuring out how to deploy properly!
 
  ![Wonders Landing Page](wonders/public/Wonders.png) 
  
