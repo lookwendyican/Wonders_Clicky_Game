@@ -1,5 +1,7 @@
-# Wonders_Clicky_Game
+# Wonders Clicky Game
 A React Memory Game Application ---  using  React javascript library, the application's UI is broken into several components in order to manage component state and respond to user events.
+
+## Which Wonders have you visited?
 
 Play **Wonders Clicky Game** [here](https://lookwendyican.github.io/Wonders_Clicky_Game/).
 
