@@ -8,9 +8,6 @@ Play **Wonders Clicky Game** [here](https://lookwendyican.github.io/Wonders_Clic
  ![Wonders Landing Page](wonders/public/Wonders.png) 
  
 
-### Description
-This application demonstrates a simple full stack application with a front end implemented with the Materialize framework and Handlebar templating, and the backend implemented with Node.js and Express. In addition, it follows the full stack MVC (Model-View-Controller) folders. Using a simple ORM, it allows the user to create burgers (POST), view a list of burgers available to eat (GET), devour burgers (PUT), and throw them away after devoured (DELETE).
-
 ### Instructions
 - The application renders a dozen different images from different Wonders of the World lists to the screen.
 
