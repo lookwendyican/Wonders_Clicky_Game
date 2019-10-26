@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WondersCard from "./components/WondersCard";
+import Container from "./components/Container";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -28,8 +29,8 @@ class App extends Component {
   };
 
   // resets all the clicked properties to false
-  resetDeck = data => {
-    const resetData = data.map(item => ({ ...item, clicked: false }));
+  resetDeck = wonders => {
+    const resetData = wonders.map(item => ({ ...item, clicked: false }));
     // console.log(data);
     // console.log(resetData);
     return this.shuffleDeck(resetData);
@@ -52,7 +53,7 @@ class App extends Component {
   // restarts the game with fresh data
   wrongGuess = newData => {
     this.setState({
-      data: this.resetDeck(newData),
+      wonders: this.resetDeck(newData),
       score: 0
     });
   };
@@ -81,23 +82,25 @@ class App extends Component {
   // Map over this.state.wonders and render a WonderCard component for each friend object
   render() {
     return (
-      <div>
+      <div className="back">
         <Header score={this.state.score} topScore={this.state.topScore} />
-        <Wrapper>
-          {this.state.wonders.map(wonder => (
-            <div className="animated pulse">
-              <WondersCard
-                id={wonder.id}
-                key={wonder.id}
-                name={wonder.name}
-                image={wonder.image}
-                animate={!this.state.score && this.state.topScore}
-                clicked={wonder.clicked}
-                handleClick={this.gameCardClick}
-              />
-            </div>
-          ))}
-        </Wrapper>
+        <Container>
+          <Wrapper>
+            {this.state.wonders.map(wonder => (
+              <div className="animated pulse">
+                <WondersCard
+                  id={wonder.id}
+                  key={wonder.id}
+                  name={wonder.name}
+                  image={wonder.image}
+                  animate={!this.state.score && this.state.topScore}
+                  clicked={wonder.clicked}
+                  handleClick={this.gameCardClick}
+                />
+              </div>
+            ))}
+          </Wrapper>
+        </Container>
         <Footer />
       </div>
     );
