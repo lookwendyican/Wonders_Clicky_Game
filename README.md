@@ -3,7 +3,7 @@ A React Memory Game Application ---  using  React javascript library, the applic
 
 ## Which Wonders have you visited?
 
-Play **Wonders Clicky Game** [here](https://lookwendyican.github.io/Wonders_Clicky_Game/).
+Play **Wonders Clicky Game** [here](https://https://lit-plateau-35495.herokuapp.com/).
 
  ![Wonders Landing Page](wonders/public/Wonders.png) 
  
